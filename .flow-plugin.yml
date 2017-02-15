@@ -1,0 +1,21 @@
+
+name: nodejs_init
+version: 0.0.1
+language: nodejs
+description: Nodejs environment initialize
+public: true
+tags:
+  - nodejs
+  - init
+inputs:
+  - name: FLOW_VERSION
+    editable: false
+outputs:
+  - name: FLOW_NVM_VERSION
+  - name: FLOW_NODE_VERSION
+  - name: FLOW_NPM_VERSION
+script_path: ./run.sh  
+  
+template: |  
+  
+  
