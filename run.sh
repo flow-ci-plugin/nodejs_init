@@ -37,7 +37,6 @@ source $HOME/.rvm/scripts/rvm
 
 flow_cmd "rvm use 2.1.0" --echo
 flow_cmd "nvm --version" --echo
-flow_cmd "nvm install $FLOW_VERSION" --echo
 flow_cmd "nvm use $FLOW_VERSION" --echo
 flow_cmd "node --version" --echo
 flow_cmd "npm --version" --echo
